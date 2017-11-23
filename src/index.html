@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>pomodoro app</title>
+    <link rel='stylesheet' type='text/css'href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+  </head>
+  <body>
+    <h1>freecodecamp pomodoro app</h1>
+    <div id="app">
+        <div id="session-timer" class="timer">
+            <div id="session">
+                <ul>
+                    <li class='session icon-minus'><i class='fa fa-minus'></i></li>
+                    <li id="session-time" class="count"></li>
+                    <li class='session icon-plus'><i class='fa fa-plus fa-sm'></i></li>
+                </ul>
+            </div>
+            <div id="break">
+                <ul>
+                    <li class='break icon-minus'><i class='fa fa-minus'></i></li>
+                    <li id="break-time" class="count"></li>
+                    <li class='break icon-plus'><i class='fa fa-plus'></i></li>
+                </ul>
+            </div>
+        </div>
+        <div id="controls">
+            <ul>
+                <li id="reset" class="control-item"><i class='fa fa-undo'></i></li>
+                <li id="start" class="control-item"><i class='fa fa-play'></i></li>
+            </ul>
+        </div>
+    </div>
+  <script type="text/javascript" src="./js/app.js">
+  </script>
+  </body>
+</html>
